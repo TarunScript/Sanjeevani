@@ -1,0 +1,21 @@
+##fileformat=VCFv4.2
+##source=PharmaGuardTestData
+##reference=GRCh38
+##INFO=<ID=GENE,Number=1,Type=String,Description="Gene symbol">
+##INFO=<ID=STAR,Number=1,Type=String,Description="Star allele designation">
+##INFO=<ID=RS,Number=1,Type=String,Description="dbSNP rsID">
+##INFO=<ID=EFFECT,Number=1,Type=String,Description="Functional effect">
+##FILTER=<ID=PASS,Description="All filters passed">
+##FORMAT=<ID=GT,Number=1,Type=String,Description="Genotype">
+##FORMAT=<ID=DP,Number=1,Type=Integer,Description="Read depth">
+##FORMAT=<ID=GQ,Number=1,Type=Integer,Description="Genotype quality">
+#CHROM	POS	ID	REF	ALT	QUAL	FILTER	INFO	FORMAT	SAMPLE001
+22	42130692	rs3892097	C	T	99	PASS	GENE=CYP2D6;STAR=*4;RS=rs3892097;EFFECT=splicing_defect	GT:DP:GQ	0/1:45:99
+22	42126611	rs16947	G	A	85	PASS	GENE=CYP2D6;STAR=*2;RS=rs16947;EFFECT=normal_function	GT:DP:GQ	0/1:38:85
+10	94762706	rs4244285	G	A	95	PASS	GENE=CYP2C19;STAR=*2;RS=rs4244285;EFFECT=no_function	GT:DP:GQ	1/1:52:95
+10	94781859	rs12248560	C	T	90	PASS	GENE=CYP2C19;STAR=*17;RS=rs12248560;EFFECT=increased_function	GT:DP:GQ	0/1:41:90
+10	94981296	rs1799853	C	T	92	PASS	GENE=CYP2C9;STAR=*2;RS=rs1799853;EFFECT=decreased_function	GT:DP:GQ	0/1:48:92
+10	94981297	rs1057910	A	C	88	PASS	GENE=CYP2C9;STAR=*3;RS=rs1057910;EFFECT=decreased_function	GT:DP:GQ	0/1:35:88
+12	21178615	rs4149056	T	C	97	PASS	GENE=SLCO1B1;STAR=*5;RS=rs4149056;EFFECT=decreased_function	GT:DP:GQ	0/1:55:97
+6	18130918	rs1142345	A	G	91	PASS	GENE=TPMT;STAR=*3C;RS=rs1142345;EFFECT=no_function	GT:DP:GQ	0/1:42:91
+1	97915614	rs3918290	C	T	96	PASS	GENE=DPYD;STAR=*2A;RS=rs3918290;EFFECT=no_function	GT:DP:GQ	0/1:50:96

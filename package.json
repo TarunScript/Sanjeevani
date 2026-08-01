@@ -1,0 +1,18 @@
+{
+  "name": "sanjeevani",
+  "version": "1.0.0",
+  "description": "AI-Powered Pharmacogenomic Risk Prediction System",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start"
+  },
+  "dependencies": {
+    "@google/generative-ai": "^0.21.0",
+    "groq-sdk": "^0.37.0",
+    "next": "^14.2.0",
+    "react": "^18.3.0",
+    "react-dom": "^18.3.0"
+  }
+}

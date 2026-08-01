@@ -1,0 +1,11 @@
+##fileformat=VCFv4.2
+##source=PharmaGuardTestData
+##reference=GRCh38
+##INFO=<ID=GENE,Number=1,Type=String,Description="Gene symbol">
+##INFO=<ID=STAR,Number=1,Type=String,Description="Star allele designation">
+##INFO=<ID=RS,Number=1,Type=String,Description="dbSNP rsID">
+##FILTER=<ID=PASS,Description="All filters passed">
+##FORMAT=<ID=GT,Number=1,Type=String,Description="Genotype">
+##FORMAT=<ID=DP,Number=1,Type=Integer,Description="Read depth">
+#CHROM	POS	ID	REF	ALT	QUAL	FILTER	INFO	FORMAT	SAMPLE002
+22	42130692	rs3892097	C	T	99	PASS	GENE=CYP2D6;STAR=*4;RS=rs3892097	GT:DP	1/1:50

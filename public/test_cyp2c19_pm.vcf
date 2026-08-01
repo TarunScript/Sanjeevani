@@ -1,0 +1,14 @@
+##fileformat=VCFv4.2
+##source=PharmaGuardTestData
+##reference=GRCh38
+##INFO=<ID=GENE,Number=1,Type=String,Description="Gene symbol">
+##INFO=<ID=STAR,Number=1,Type=String,Description="Star allele designation">
+##INFO=<ID=RS,Number=1,Type=String,Description="dbSNP rsID">
+##INFO=<ID=EFFECT,Number=1,Type=String,Description="Functional effect">
+##FILTER=<ID=PASS,Description="All filters passed">
+##FORMAT=<ID=GT,Number=1,Type=String,Description="Genotype">
+##FORMAT=<ID=DP,Number=1,Type=Integer,Description="Read depth">
+##FORMAT=<ID=GQ,Number=1,Type=Integer,Description="Genotype quality">
+#CHROM	POS	ID	REF	ALT	QUAL	FILTER	INFO	FORMAT	SAMPLE_TC2
+10	94762706	rs4244285	G	A	98	PASS	GENE=CYP2C19;STAR=*2;RS=rs4244285;EFFECT=no_function	GT:DP:GQ	1/1:60:98
+10	94781859	rs12248560	C	T	45	PASS	GENE=CYP2C19;STAR=*17;RS=rs12248560;EFFECT=increased_function	GT:DP:GQ	0/0:38:80

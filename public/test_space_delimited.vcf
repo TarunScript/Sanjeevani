@@ -1,0 +1,8 @@
+##fileformat=VCFv4.2
+##reference=GRCh38
+##INFO=<ID=GENE,Number=1,Type=String,Description="Gene name">
+##INFO=<ID=RS,Number=1,Type=String,Description="dbSNP ID">
+##INFO=<ID=STAR,Number=1,Type=String,Description="Star allele designation">
+##INFO=<ID=PHENOTYPE,Number=1,Type=String,Description="Metabolizer phenotype">
+#CHROM  POS       ID         REF ALT QUAL FILTER INFO
+10      94762706  rs4244285  G   A   .    PASS   GENE=CYP2C19;RS=rs4244285;STAR=*2;PHENOTYPE=Poor_Metabolizer
